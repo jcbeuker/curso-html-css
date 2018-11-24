@@ -9,6 +9,11 @@ aside a {
     font-family: "Open Sans Condensed", sans-serif;
 }
 
+aside h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
 aside nav ul {
     padding: 0;
 }
@@ -30,18 +35,31 @@ blockquote {
     background-color: #D9E5E3;
     border: 10px solid #C2CCCA;
     box-sizing: border-box;
-    margin: 0;
+    margin: 20px 40px;
     width: 250px;
+}
+
+cite {
+    font-style: italic;
 }
 
 main div {
     margin: auto;
     width: 720px;
+    padding: 30px 0;
+}
+
+em {
+    font-style: italic;
 }
 
 footer {
     background-color: #F2FFFC;
     color: #000;
+}
+
+main a {
+    color: #851944;
 }
 
 h1,
@@ -53,13 +71,14 @@ main h1 {
     background-color: #851944;
     border-bottom: 10px solid black;
     color: #FFF;
+    font-size: 60px;
     margin: 0;
     padding: 25px;
     text-align: center;
 }
 
-main a {
-    color: #851944;
+h2 {
+    font-size: 30px;
 }
 
 nav a {
@@ -69,6 +88,11 @@ nav a {
 p {
     font-family: "Times New Roman", serif;
     text-align: justify;
+    margin: 20px 0;
+}
+
+strong {
+    font-weight: bold;
 }
 
 ul li span {
