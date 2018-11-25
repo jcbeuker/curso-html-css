@@ -18,6 +18,10 @@ aside nav ul {
     padding: 0;
 }
 
+aside li {
+    display: inline-block;
+}
+
 aside,
 blockquote,
 footer {
