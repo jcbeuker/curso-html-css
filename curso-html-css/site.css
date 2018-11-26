@@ -1,6 +1,13 @@
-aside {
+article {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.navegacaoSite {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    padding: 20px;
     text-align: center;
 }
 
@@ -14,11 +21,7 @@ aside h1 {
     margin-bottom: 25px;
 }
 
-aside nav ul {
-    padding: 0;
-}
-
-aside li {
+.iconesRedesSociais li {
     display: inline-block;
 }
 
@@ -35,7 +38,7 @@ body {
     line-height: 1.5;
 }
 
-blockquote {
+.citacoes {
     background-color: #D9E5E3;
     border: 10px solid #C2CCCA;
     box-sizing: border-box;
@@ -47,7 +50,7 @@ cite {
     font-style: italic;
 }
 
-main div {
+.conteudoPrincipal {
     margin: auto;
     width: 720px;
     padding: 30px 0;
@@ -71,7 +74,7 @@ h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
-main h1 {
+.tituloPrincipal {
     background-color: #851944;
     border-bottom: 10px solid black;
     color: #FFF;
@@ -85,6 +88,15 @@ h2 {
     font-size: 30px;
 }
 
+.leiaMais {
+    background-color: #E6E7E8;
+    display: block;
+    font-size: 24px;
+    margin: 16px;
+    padding: 8px;
+    text-align: center;
+}
+
 nav a {
     color: #F2FFFC;
 }
@@ -93,6 +105,12 @@ p {
     font-family: "Times New Roman", serif;
     text-align: justify;
     margin: 20px 0;
+}
+
+#rodapePagina {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
 }
 
 strong {
