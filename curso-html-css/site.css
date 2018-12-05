@@ -76,7 +76,7 @@ main a {
     color: #851944;
 }
 
-main h1 {
+h1 {
     text-transform: uppercase;
 }
 
@@ -110,6 +110,7 @@ h2 {
 
 nav a {
     color: #F2FFFC;
+    text-transform: lowercase;
 }
 
 p {
