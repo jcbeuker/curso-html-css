@@ -53,8 +53,17 @@ body {
     width: 250px;
 }
 
+#citacao-fiat {
+    float: right;
+}
+
+#citacao-petrobras {
+    float: left;
+}
+
 cite {
     font-style: italic;
+    float: right;
 }
 
 .conteudoPrincipal {
@@ -72,8 +81,28 @@ footer {
     color: #000;
 }
 
+.clearfix {
+    clear: both;
+}
+
 main a {
     color: #851944;
+}
+
+main {
+    width: 80%;
+    float: left;
+}
+
+img,
+aside {
+    width: 20%;
+    float: right;
+}
+
+aside {
+    clear: right;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -97,6 +126,7 @@ h2 {
 
 h2 {
     font-size: 30px;
+    clear: both;
 }
 
 .leiaMais {
