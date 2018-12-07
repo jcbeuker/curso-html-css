@@ -101,7 +101,6 @@ aside {
 }
 
 aside {
-    clear: right;
     box-sizing: border-box;
 }
 
@@ -173,4 +172,12 @@ ul li span {
 
 .linkedIn {
     background-image: url(linkedin.png);
+}
+
+.minhaFoto,
+.navegacaoSite {
+    float: right;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
 }
