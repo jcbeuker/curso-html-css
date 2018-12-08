@@ -79,6 +79,11 @@ em {
 footer {
     background-color: #F2FFFC;
     color: #000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .clearfix {
@@ -92,6 +97,7 @@ main a {
 main {
     width: 80%;
     float: left;
+    padding-bottom: 80px;
 }
 
 img,
@@ -180,4 +186,16 @@ ul li span {
     box-sizing: border-box;
     border-left: 10px solid black;
     border-bottom: 10px solid black;
+}
+
+.navegacaoSite {
+    width: 15%;
+    position: relative;
+    top: 304px;
+}
+
+.minhaFoto {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
