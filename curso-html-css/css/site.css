@@ -14,15 +14,15 @@ h2 {
     text-align: center;
     background-color: #851944;
     color: #FFF;
-    padding: 25px;
-    border-bottom: 10px solid black;
-    font-size: 60px;
+    padding: 1.25rem;
+    border-bottom: .5rem solid black;
+    font-size: 300%;
     text-transform: uppercase;
 }
 
 p {
     text-align: justify;
-    margin: 20px 0;
+    margin: 1rem 0;
 }
 
 .navegacao-site {
@@ -52,13 +52,13 @@ main a {
 
 .navegacao-site,
 .rodape-pagina {
-    padding: 20px;
+    padding: 1rem;
 }
 
 .container {
     width: 720px;
     margin: auto;
-    padding: 30px 0;
+    padding: 1.5rem 0;
 }
 
 strong {
@@ -66,8 +66,8 @@ strong {
 }
 
 .navegacao-site h1 {
-    font-size: 30px;
-    margin-bottom: 25px;
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
 }
 
 em {
@@ -75,7 +75,7 @@ em {
 }
 
 .subtitulo-texto {
-    font-size: 30px;
+    font-size: 1.5rem;
     clear: both;
 }
 
@@ -88,8 +88,8 @@ nav a {
 }
 
 .icones-redes-sociais a {
-    width: 40px;
-    height: 40px;
+    width: 2.4rem;
+    height: 2.4rem;
     display: block;
     text-indent: -99999px;
 }
@@ -109,15 +109,15 @@ nav a {
 main {
     float: left;
     width: 85%;
-    padding-bottom: 80px;
+    padding-bottom: 4rem;
 }
 
 .minha-foto,
 .navegacao-site {
     float: right;
     box-sizing: border-box;
-    border-left: 10px solid black;
-    border-bottom: 10px solid black;
+    border-left: .58rem solid black;
+    border-bottom: .58rem solid black;
 }
 
 .minha-foto {
@@ -129,5 +129,5 @@ main {
 .navegacao-site {
     width: 15%;
     position: relative;
-    top: 309px;
+    top: 19.3rem;
 }
