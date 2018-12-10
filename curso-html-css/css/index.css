@@ -4,6 +4,7 @@ header {
 
 .foto-home {
     height: 200px;
+    border-radius: 10% 50% / 50% 10%;
 }
 
 .saudacao p {
