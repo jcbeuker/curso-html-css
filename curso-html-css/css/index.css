@@ -32,6 +32,8 @@ header {
 .saudacao em {
     font-size: 4em;
     color: #851944;
+    transform: rotate(-5deg) skew(-10deg);
+    display: inline-block;
 }
 
 .botao-index {
@@ -160,54 +162,76 @@ main {
 .eficiencia {
     top: 18%;
     left: 80%;
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
 }
 
 .boas-praticas {
     top: 70%;
     right: 65%;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
 }
 
 .codigo-limpo {
     top: 40%;
     left: 3%;
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
 }
 
 .css3 {
     top: 50%;
     right: 62%;
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
 }
 
 .html5 {
     bottom: 40%;
     right: 15%;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
 }
 
 .javascript {
     top: 0%;
     left: 60%;
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
 }
 
 .acessibilidade {
     top: 28%;
     left: 23%;
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
 }
 
 .responsivo {
     top: 12%;
     left: 8%;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
 }
 
 .otimizacoes {
     top: 65%;
     left: 65%;
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
 }
 
 .agilidade {
     bottom: 80%;
     left: 30%;
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
 }
 
 .design {
     top: 28%;
     left: 59%;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
 }
