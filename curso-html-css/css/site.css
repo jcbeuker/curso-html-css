@@ -30,8 +30,11 @@ h1 {
     clear: both;
 }
 
-main a {
-    color: #851944;
+main a:hover,
+main a:focus,
+footer a:hover,
+footer a:focus {
+    color: red;
 }
 
 main p {
@@ -44,6 +47,11 @@ main p {
     background-color: #3C1D3D;
     color: #F2FFFC;
     padding: 1em;
+}
+
+.navegacao-site a:hover,
+.navegacao-site a:focus {
+    text-shadow: 0 0 2px pink;
 }
 
 .navegacao-site a {
@@ -132,5 +140,6 @@ main {
     position: absolute;
     top: 0;
     right: 0;
-    height: 300px;
+    height: 15.65em;
+    width: 15.82em;
 }
