@@ -16,6 +16,11 @@
     margin-left: 0;
 }
 
+.citacao-bio:nth-of-type(even):hover,
+.citacao-bio:nth-of-type(even):focus {
+    transform: scale(1.2) rotate(-5deg);
+}
+
 .citacao-bio:nth-of-type(odd) {
     float: right;
     margin-right: 0;
@@ -26,7 +31,11 @@
     transform: scale(1.2) rotate(5deg);
 }
 
-.citacao-bio:nth-of-type(even):hover,
-.citacao-bio:nth-of-type(even):focus {
-    transform: scale(1.2) rotate(-5deg);
+.container>p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: #3C1D3D;
+    text-shadow: .04em .04em #000;
+    margin-right: .2ch;
+    line-height: 1;
 }
