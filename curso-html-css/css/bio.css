@@ -5,6 +5,7 @@
     margin: 1em 2em;
     width: 30ch;
     box-sizing: border-box;
+    position: relative;
 }
 
 .citacao-bio:hover {
@@ -19,6 +20,7 @@
 .citacao-bio:nth-of-type(even):hover,
 .citacao-bio:nth-of-type(even):focus {
     transform: scale(1.2) rotate(-5deg);
+    z-index: 1;
 }
 
 .citacao-bio:nth-of-type(odd) {
@@ -29,6 +31,7 @@
 .citacao-bio:nth-of-type(odd):hover,
 .citacao-bio:nth-of-type(odd):focus {
     transform: scale(1.2) rotate(5deg);
+    z-index: 2;
 }
 
 .container:first-of-type>p:first-child:first-letter {
@@ -38,4 +41,25 @@
     text-shadow: .04em .04em #000;
     margin-right: .2ch;
     line-height: 1;
+}
+
+.citacao-bio::before {
+    content: '"';
+    position: absolute;
+    font-size: 10em;
+    color: #BBB;
+    line-height: .8;
+}
+
+.citacao-bio::after {
+    content: '"';
+    position: absolute;
+    font-size: 10em;
+    color: #BBB;
+    line-height: .08;
+    left: 40%;
+}
+
+.citacao-bio>p {
+    position: relative;
 }
