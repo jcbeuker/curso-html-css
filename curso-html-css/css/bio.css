@@ -31,7 +31,7 @@
     transform: scale(1.2) rotate(5deg);
 }
 
-.container>p::first-letter {
+.container:first-of-type>p:first-child:first-letter {
     font-size: 2em;
     font-weight: bold;
     color: #3C1D3D;
