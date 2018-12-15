@@ -51,15 +51,6 @@
     line-height: .8;
 }
 
-.citacao-bio::after {
-    content: '"';
-    position: absolute;
-    font-size: 10em;
-    color: #BBB;
-    line-height: .08;
-    left: 40%;
-}
-
 .citacao-bio>p {
     position: relative;
 }
