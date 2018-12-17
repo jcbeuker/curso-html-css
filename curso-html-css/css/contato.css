@@ -106,3 +106,35 @@ input[value="outro"]:checked~input {
 #textoOutroAssunto {
     width: 40%;
 }
+
+.comIcone {
+    position: relative;
+}
+
+.comIcone::after {
+    content: "";
+    background-color: #8C1D3D;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    width: 2em;
+    height: 2em;
+    background-position: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+label[for="nome"]:after {
+    background-image: url(../imagens/usuario.png);
+}
+
+label[for="email"]:after {
+    background-image: url(../imagens/email.png);
+}
+
+#nome,
+#email {
+    width: calc(100% - 2em);
+    position: relative;
+    left: 2em;
+}
