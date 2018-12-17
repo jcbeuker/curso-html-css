@@ -54,3 +54,43 @@
 .citacao-bio>p {
     position: relative;
 }
+
+.habilidades th {
+    background-color: #851944;
+    color: white;
+    font-weight: bold;
+}
+
+.habilidades thead th {
+    /* não precisamos colocar font-weight e color
+       pois já fizemos isso para todos os th */
+    background-color: #3C1D3D;
+}
+
+.habilidades td {
+    background-color: #eee;
+}
+
+.habilidades th,
+.habilidades td {
+    padding: 1em;
+}
+
+.habilidades {
+    border-collapse: separate;
+    border-spacing: .25em;
+}
+
+.habilidades {
+    margin: 1em 0;
+}
+
+.habilidades [rowspan] {
+    vertical-align: middle;
+    text-align: center;
+    font-style: italic;
+}
+
+.rodape-da-tabela {
+    font-style: italic;
+}
