@@ -114,13 +114,13 @@ h1 {
 }
 
 .trabalhos ul {
-    overflow: hidden;
     border: .5em solid black;
+    display: flex;
 }
 
 .trabalhos li {
     float: left;
-    width: 33.333%;
+    flex: 1;
 }
 
 .trabalhos img {
@@ -184,6 +184,7 @@ body {
     perspective: 6px;
     -webkit-perspective-origin: 50% 160px;
     perspective-origin: 50% 160px;
+    display: block;
 }
 
 .palavras-home {
