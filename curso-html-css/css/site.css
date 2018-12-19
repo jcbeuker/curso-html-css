@@ -144,21 +144,11 @@ em {
 }
 
 main {
-    width: calc(100% - 0.9*300px);
-    float: left;
     padding-bottom: 4em;
-}
-
-.minha-foto,
-.navegacao-site {
-    border-left: .5em solid black;
-    border-bottom: .5em solid black;
-    box-sizing: border-box;
+    flex-grow: 1;
 }
 
 .navegacao-site {
-    width: calc(0.9 * 300px);
-    float: right;
     padding-top: calc(300px + 1em);
 }
 
@@ -168,4 +158,6 @@ main {
     right: 0;
     height: 15.65em;
     width: 16em;
+    border-left: .5em solid black;
+    border-bottom: .5em solid black;
 }
